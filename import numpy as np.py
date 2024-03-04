@@ -35,23 +35,3 @@ plt.show()
 # Boxplot using Seaborn
 plt.figure(figsize=(8, 6))
 sns.boxplot(y=df['Data'], color='green')
-##############
-############'
-############
-my_list = [1,2,3]
-import numpy as np
-arr= np.array(my_list)
-print(arr)
-
-my_mat =np.array([[1,2,3],[4,5,6],[7,8,9]])
-print(my_mat)
-
-
-import numpy as np
-
-# Create an array with 100 elements
-my_array = np.arange(100)
-
-# Reshape it into a 5x5 matrix
-# This will raise a ValueError because the total number of elements is not 25
-reshaped_array = my_array.reshape((5, 5))
